@@ -2,3 +2,8 @@ zakupy = {
     "piekarnia": ["chleb", "bułki", "pączek"],
     "warzywniak": ["marchew", "seler", "rukola"]
 }
+
+suma_produktow = 0
+for sklep, produkty in zakupy.items():
+    print(f"Idę do {sklep.capitalize()} i kupuję tam {', '.join([produkt.capitalize() for produkt in produkty])}.")
+    suma_produktow += len(produkty)
