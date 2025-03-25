@@ -10,3 +10,4 @@ for sklep, produkty in zakupy.items():
 
 print(f"W sumie kupuję {suma_produktow} produktów.")
 print()
+print("Hello")
